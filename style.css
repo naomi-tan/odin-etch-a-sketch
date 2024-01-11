@@ -1,6 +1,7 @@
 body {
     box-sizing: border-box;
     background-color: red;
+    text-align: right;
 }
 
 .etchasketch {
@@ -12,9 +13,14 @@ body {
 }
 
 .container {
-    min-height: 500px;
+    min-height: fit-content;
     aspect-ratio: 1;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
 }
 
 .text {
@@ -35,7 +41,7 @@ body {
 .grid {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    min-width: 400px;
     background-color: white;
 }
 
