@@ -1,0 +1,59 @@
+body {
+    box-sizing: border-box;
+    background-color: red;
+}
+
+.etchasketch {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    min-height: fit-content;
+}
+
+.container {
+    min-height: 500px;
+    aspect-ratio: 1;
+    text-align: center;
+}
+
+.text {
+    font-family: serif;
+    font-size: 50px;
+    color: goldenrod;
+    padding: 5px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    flex-basis: 6.25%;
+    aspect-ratio: 1;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: goldenrod;
+    border-radius: 5%;
+}
